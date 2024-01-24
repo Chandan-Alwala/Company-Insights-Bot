@@ -1,0 +1,7 @@
+{
+  "name": "holidays-bot-function-visible-on-gchat",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "0.20.0"
+  }
+}
