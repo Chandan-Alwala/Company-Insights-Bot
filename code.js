@@ -3,7 +3,7 @@
 const axios = require("axios");
 const url   = "https://storage.cloud.google.com/searce-bot-holidays-info/searcebot.json"
 
-/*
+
 function verifyWebhook (body) {
   if (!body || body.token !== "--YOUR_VERIFICATION_TOKEN--") {
     const error = new Error('Invalid credentials');
@@ -11,7 +11,7 @@ function verifyWebhook (body) {
     throw error;
   }
 }
-*/
+
 
 function createMessage(query, response) {
   var HEADER = {
